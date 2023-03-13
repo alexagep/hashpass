@@ -1,4 +1,7 @@
 # Changelog
+## 0.2.3
+
+* modified compare method
 ## 0.2.2
 
 * modified README file

@@ -9,7 +9,7 @@ const hashPass = (rawPassword, { salt = 20, rounds = 15 }) => {
   return `${salt}$${rounds}$${hashed}`;
 };
 
-function compare(rawPassword, hashedPassword) {
+const compare = (rawPassword, hashedPassword) => {
   try {
     const [salt, rounds] = hashedPassword.split("$");
 
