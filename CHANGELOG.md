@@ -1,4 +1,7 @@
 # Changelog
+## 0.2.2
+
+* modified README file
 ## 0.2.1
 
 * modified README and package.json file

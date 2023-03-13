@@ -28,18 +28,19 @@ const { hashPass, compare } = require("x-hash");
 * you can see how we hash passwords using x-hash package like below:
 
       ``` 
-        const hashedPass = hashPass('password') 
+      const hashedPass = hashPass('password') 
       ```
       ``` 
-        const hashedPass = hashPass('password', { salt = 20, rounds = 15 }) 
+      const hashedPass = hashPass('password', { salt = 20, rounds = 15 }) 
       ````
       ``` 
-        const hashedPass = hashPass('password', { salt = 10 }) 
+      const hashedPass = hashPass('password', { salt = 10 }) 
       ````
 
 * if you want to compare passwords, here you are:
+
       ``` 
-        const isEqualPass = compare('password', hashedPass) 
+      const isEqualPass = compare('password', hashedPass) 
       ```
 
 ## 🤝 Contribution
