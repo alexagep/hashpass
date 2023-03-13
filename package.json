@@ -1,6 +1,6 @@
 {
-  "name": "hashpassword",
-  "version": "0.2.0",
+  "name": "x-hash",
+  "version": "0.2.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,14 +10,15 @@
     "url": "git+https://github.com/alexagep/hashpass.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Ali Aghapour @alexagep",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alexagep/hashpass/issues"
   },
   "homepage": "https://github.com/alexagep/hashpass#readme",
-  "description": "",
+  "description": "x-hash is a Javascript package that allows you to securely hash passwords with an optional salt and round value and use compare function to compare hashPassword and rawPassword",
   "dependencies": {
     "md5": "^2.3.0"
-  }
+  },
+  "devDependencies": {}
 }

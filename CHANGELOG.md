@@ -1,4 +1,7 @@
 # Changelog
+## 0.2.1
+
+* modified README and package.json file
 ## 0.2.0
 
 * Create a file named "example.js" in the root directory with a descriptive name that represents the example you want to showcase.
