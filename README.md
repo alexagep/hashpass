@@ -32,11 +32,11 @@ const { hashPass, compare } = require("x-hash");
   ```
 
   ```
-  const hashedPass = hashPass('password', { salt = 20, rounds = 15 })
+  const hashedPass = hashPass('password', { salt : 20, rounds : 15 })
   ```
 
   ```
-  const hashedPass = hashPass('password', { salt = 10 })
+  const hashedPass = hashPass('password', { salt : 10 })
   ```
 
 - if you want to compare passwords, here you are:
